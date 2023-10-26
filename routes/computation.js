@@ -14,7 +14,7 @@ router.get('/', function(req, res, next) {
     number2 = Math.cosh(rand2);
     number3 = Math.cosh(rand1);
 
-    res.send(`The Random Number are ${rand1} and ${rand2} <br><br> Round applied is ${rand1} is ${number1} <br><br> Round applied is ${rand2} is ${number2} <br><br> Round applied is ${rand1} is ${number3}`);
+    res.send(`The Random Number are ${rand1} and ${rand2} <br><br> cosh applied is ${rand1} is ${number1} <br><br> cosh applied is ${rand2} is ${number2} <br><br> cosh applied is ${rand1} is ${number3}`);
   
 });
 
